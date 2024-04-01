@@ -1,0 +1,3 @@
+import qrcode
+a=qrcode.make("www.linkedin.com/in/vishrallet")
+a.save("myqrcode.png")
